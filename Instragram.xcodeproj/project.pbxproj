@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4865E35A1C6304E30025FDD0 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E3591C6304E30025FDD0 /* PhotosTableViewCell.swift */; };
 		4865E35C1C6307F70025FDD0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4865E35B1C6307F70025FDD0 /* AFNetworking.framework */; };
+		48841C641C659C77003CAE50 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48841C631C659C77003CAE50 /* InfiniteScrollActivityView.swift */; };
 		489D3C8A1C5E8A6600DFC9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D3C891C5E8A6600DFC9FC /* AppDelegate.swift */; };
 		489D3C8C1C5E8A6600DFC9FC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D3C8B1C5E8A6600DFC9FC /* PhotosViewController.swift */; };
 		489D3C8F1C5E8A6600DFC9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489D3C8D1C5E8A6600DFC9FC /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		4865E3591C6304E30025FDD0 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
 		4865E35B1C6307F70025FDD0 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		48841C631C659C77003CAE50 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 		489D3C861C5E8A6600DFC9FC /* Instragram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instragram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489D3C891C5E8A6600DFC9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		489D3C8B1C5E8A6600DFC9FC /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				489D3C891C5E8A6600DFC9FC /* AppDelegate.swift */,
 				489D3C8B1C5E8A6600DFC9FC /* PhotosViewController.swift */,
+				48841C631C659C77003CAE50 /* InfiniteScrollActivityView.swift */,
 				48D89ABA1C645F6700971F88 /* PhotoDetailsViewController.swift */,
 				489D3C8D1C5E8A6600DFC9FC /* Main.storyboard */,
 				4865E3591C6304E30025FDD0 /* PhotosTableViewCell.swift */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48841C641C659C77003CAE50 /* InfiniteScrollActivityView.swift in Sources */,
 				48D89ABB1C645F6700971F88 /* PhotoDetailsViewController.swift in Sources */,
 				4865E35A1C6304E30025FDD0 /* PhotosTableViewCell.swift in Sources */,
 				489D3C8C1C5E8A6600DFC9FC /* PhotosViewController.swift in Sources */,
